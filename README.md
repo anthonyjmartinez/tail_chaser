@@ -1,6 +1,6 @@
-# tail-chaser
+# About
 
-`tail-chaser` is tail-like implementation in Rust for Linux systems.
+`tail_chaser` is tail-like implementation in Rust for Linux systems.
 The binary expects exactly one argument which is the file to be followed.
 Tailing of the file starts at the end of the file, and continues from there.
 If a file is rotated with a new file created with the same name the program
