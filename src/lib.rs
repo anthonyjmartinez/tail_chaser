@@ -113,7 +113,7 @@ impl<'a> TailedFile<'a> {
         if data.len() > 0 {
             self.update_status()?;
             let lines = String::from_utf8(data)?; // Will blow up if not data is not utf8
-            println!("{}", lines);
+            print!("{}", lines);
             Ok(())
         } else { Ok(()) } // Only here to clear E0317, and no-op on empty data
     }
