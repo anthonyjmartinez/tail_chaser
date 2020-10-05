@@ -4,7 +4,6 @@ version = "0.1.0"
 authors = ["Anthony Martinez <anthony@ajmartinez.com>"]
 edition = "2018"
 license = "GPL-3.0+"
-license-file = "COPYING"
 readme = "README.md"
 homepage = "https://github.com/anthonyjmartinez/tail_chaser"
 repository = "https://github.com/anthonyjmartinez/tail_chaser.git"
