@@ -86,7 +86,7 @@ impl<'a> TailedFile<'a> {
         }
     }
 
-    fn update_status(&mut self) -> std::io::Result<()> {
+    pub fn update_status(&mut self) -> std::io::Result<()> {
         let status = self.check_updates()?;
 
         match status {
